@@ -1,12 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World fantasy</title>
+<!DOCTYPE html><!-- DOCTYPE é p/indicar a versão do HTML 5 -->
+<html lang "pt-br"><!--É um parametro q indica o idioma -->
+<head><!--vamos usar CSS intenal q é dentro do style-->
+   <meta charset=”UTF-8”><!--td q é vermelho é parametro(função)-->
+     <title>Livraria</title><!--oq tiver em title é o nome do arquivo--> 
+     <style>
+     
+input[type=text] {
+  width: 30%;
+  padding: 2px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 4px;
+}
+      body{
+          background-color: lightgray;}/*aqui é a cor de fundo*/
+      /* CSS INTERNAL:elemento + propiedade(vermelho)+ valor(azul)*/
+      h1 {background-color:sienna; /* CSS todo elemento(letra) é minusculo*/
+      color: white;
+      text-align: center;} /*todo comando tem que abrir chaves{}*/
+      
+      h2 {background-color:sienna; /*a cor vermelha é o parametro*/
+      color: white;}  /* e a cor azul é o valor*/
+      
+      h3 {background-color:sienna;
+      color: white;
+      text-align: center;}
+      
+      img {
+          border-radius: 50%;
+           }
+      
+      p {
+        background-color:sienna; 
+        color: white;}
+        
+        .center {
+         table-align: center;
+         }
+ 
+      td {
+        font-family: verdana;
+        font-size:18px;
+        color: black;     
+     }       
+     </style>
 </head>
 <body>
-
-</body>
-</html>
+<p>Informações de acesso:</p>
+ 
+<form>
+  <label for="fname">e-mail</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">senha</label>
+  <input type="text" id="lname" name="lname">
+</form>
+<h1><i>WORLD FANTASY</i></h1><!--'<i>' é pra deixar italico-->
+     <img src="https://img.huffingtonpost.com/asset/5c375a561f00008209282ddb.jpeg?ops=scalefit_630_noupscale" alt="img.huffingtonpost" align: center;/>
+ <img src="FinalFantasyJogo.webp" alt="Logo do projeto">
+ <img src="Gokuimage-removebg-preview" alt="Goku">
+     <h2>LIVROS DE ANIMES E DESENHOS</h2>
+     
+      <img src="https://images-submarino.b2w.io/produtos/imagens/134415720/134415738_1GG.jpg" alt="images-submarino.b2w.io" width="100" height="100">
+       <img src="https://images-na.ssl-images-amazon.com/images/I/519kFvhdZxL._SX346_BO1,204,203,200_.jpg" alt="images-na.ssl-images amozon " width="100" height="100">
+        <img src="https://a.wattpad.com/cover/122347698-352-k96189.jpg" alt="a.wattpad" width="100" height="100">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTspCDWO9Q3Al2W35j9T-5aKupA2LzOKPRQkQ&usqp=CAU" alt="encrypted-tbn0.gstatic" width="100" height="100">
+          <img src="https://www.livrariasfamiliacrista.com.br/media/catalog/product/cache/1/image/56819907b1c49a4bc751319b3fccb0da/a/n/anne-e-a-casa-dos-sonhos.jpg" alt="www.livrariasfamiliacrista" width="100" height="100">
+           <img src="https://images-na.ssl-images-amazon.com/images/I/51oBlhMHUvL._SX258_BO1,204,203,200_.jpg" alt="images-na ssl-images-amazon" width="100" height="100">
+            <img src=https://a-static.mlcdn.com.br/618x463/livro-o-alienista/cliquebooks/590592-3/d9b82a050c149058b77a35509a1cf6af.jpg alt="a-static.mlcdn" width="100" height="100"> 
+             <img src=" https://m.media-amazon.com/images/I/61t5zPkOFLL.jpg"alt="m.media-amazon" width="100" height="100">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQzEeqyGO0Q1JlbSfRFnhFdlWZ23ETYxVGp1w&usqp=CAU"alt="encrypted-tbn0.gstatic" width="100" height="100">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT7BjbfF4cK7Vn1A2HX4hjXuMRfppu5nJNCcA&usqp=CAU"alt="encrypted-tbn0.gstatic" width="100" height="100">
+             
+             <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQwiSrfEbTAerui1vju6_ITMwInqX48lHKsvQ&usqp=CAU"alt="encrypted-tbn0.gstatic" width="100" height="100">
+             <img src="https://img.olx.com.br/images/72/727047663263600.jpg" alt="img.olx "width="100" height="100">
+     <!-- usamos 'ul' p/ colocar uma lista não ordenada-->
+       <h3>Categorias</h3><!--li é p/listar item-->
+        <ol><!--usa o parametro style p/ deixar marcação-->
+            <li>JOGOS</li><!-- li usamos p/listar item-->
+            <li>ACESSÓRIOS</li><!-- OL é lista ordenada-->
+            <li>CONSOLES</li>
+            <li>LIVROS</li>
+            <li>ANIMES</li>
+        </ol>
+        
+       <h3> Mostuario de livros</h3>
+ 
+ <!--modificar as cores usando o style com o background-->
+        <!-- TH é p/ nome de titulo do cabeçalho da tabela-->
+        <!--usamos o CSS INLINE abaixo q é dentro das tags-->
+    <table border="5"><!-- border é o parametro p/mexer nas bordas-->
+      <th style ="background-color:lightblue;">JOGOS</th>
+      <th style = "background-color:red;">LIVROS</th>
+      <th style ="background-color:gray;">ACESSÓRIOS</th>
+      <th style ="background-color:yellow;">CONSOLES</th>
+      <th style ="background-color:pink;">ANIMES</th>
