@@ -1,2 +1,1 @@
-#WorldFantasy
-Ambiente voltado a artigos de jogos e livros sobre tecnologias
+Filmes divertidos para relaxar e assistir 
